@@ -23,7 +23,7 @@ module.exports = async (params) => {
 
     try {
         const response = await requestUrl({
-            url: `https://store.steampowered.com/api/storesearch/?term=${encodeURIComponent(query)}`,
+            url: `https://store.steampowered.com/api/storesearch/?term=${encodeURIComponent(query)}&l=english&cc=US`,
         });
 
         if (response.status !== 200) {
