@@ -1,0 +1,127 @@
+filters:
+  and:
+    - file.folder.containsAny("Movies", "TVs", "Seasons", "Games")
+    - file.path.startsWith("Media Tracker/")
+formulas:
+  Tipo: if(type == "movie", icon("film"), if(type == "tv" || type == "season", icon("tv"), icon("gamepad-2")))
+  watch year: list(date)[0].year
+  Platino: if(tags.contains("completado100"), icon("trophy"))
+properties:
+  note.date:
+    displayName: Fecha
+  formula.Platino:
+    displayName: 100%
+views:
+  - type: cards
+    name: All
+    groupBy:
+      property: status
+      direction: DESC
+    order:
+      - title
+      - date
+      - status
+      - formula.Tipo
+      - tags
+      - rating
+    sort:
+      - property: date
+        direction: DESC
+      - property: status
+        direction: ASC
+      - property: release_date
+        direction: DESC
+    image: note.cover
+    imageFit: contain
+    imageAspectRatio: 1.5
+    cardSize: 150
+  - type: cards
+    name: Movies
+    filters:
+      and:
+        - type == "movie"
+    groupBy:
+      property: formula.watch year
+      direction: DESC
+    order:
+      - file.name
+      - status
+      - formula.year
+    image: note.cover
+    imageFit: contain
+    imageAspectRatio: 1.5
+    cardSize: 150
+  - type: cards
+    name: TV Shows
+    filters:
+      and:
+        - type == "tv"
+        - or:
+            - type != "tv"
+            - and:
+                - type == "tv"
+                - or:
+                    - "!date.isEmpty()"
+                    - temporadas.isEmpty()
+    order:
+      - file.name
+      - status
+      - tags
+    sort:
+      - property: date
+        direction: DESC
+    image: note.cover
+    imageFit: contain
+    imageAspectRatio: 1.5
+    cardSize: 150
+  - type: cards
+    name: Games
+    filters:
+      and:
+        - type == "videogame"
+    groupBy:
+      property: formula.watch year
+      direction: DESC
+    order:
+      - file.name
+      - status
+      - tags
+      - date
+    sort:
+      - property: date
+        direction: DESC
+    image: note.cover
+    imageFit: contain
+    imageAspectRatio: 1.5
+    cardSize: 150
+  - type: table
+    name: All Table
+    groupBy:
+      property: status
+      direction: DESC
+    order:
+      - formula.Tipo
+      - title
+      - date
+      - status
+      - rating
+      - tags
+    sort:
+      - property: date
+        direction: DESC
+      - property: release_date
+        direction: DESC
+      - property: status
+        direction: DESC
+    image: note.cover
+    imageFit: contain
+    imageAspectRatio: 1.5
+    cardSize: 150
+    indentProperties: false
+    columnSize:
+      formula.Tipo: 19
+      note.title: 321
+      note.date: 121
+      note.status: 214
+      note.rating: 83
+      note.tags: 207

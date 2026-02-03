@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "fd56a445f60706c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b05e23593f1065f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc92a4aace161864",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Media Tracker/Games/Hollow Knight Silksong.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hollow Knight Silksong"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1252641d130c886e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8d7bd78d05f3e4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "122223188a6a52a6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6b957d16f3d97182",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "ca5b419cb240421d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "99973c497524e9ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "1dc34358c404e1d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e6be771b0e822413",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "853392f66d776891",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "8227dd376f32c549",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "602262b7f663b328",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "acb642028afc1e8d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "movie-search:Create new movie note": false
+    }
+  },
+  "active": "dc92a4aace161864",
+  "lastOpenFiles": [
+    "Media Tracker Views.base",
+    "QuickAdd Packages/quickadd-package.quickadd.json",
+    "Media Tracker/Movies/Spider-Man Across the Spider-Verse (2023).md",
+    "Media Tracker/Games/Hollow Knight Silksong.md",
+    "Media Tracker/Movies/Back to the Future (1985).md",
+    "Media Tracker/TVs/Breaking Bad (2008).md",
+    "Media Tracker/Seasons/Breaking Bad (2008) - Season 1.md",
+    "Scripts/Tokens/tmdbToken.json",
+    "QuickAdd Packages/quickadd-package-2026-01-30T16-03-39-843Z.quickadd.json",
+    "QuickAdd Packages",
+    "Scripts/Tokens/steamGridDbToken.json",
+    "Scripts/Tokens",
+    "Media Tracker/Juegos/Pokémon Emerald Version.md",
+    "Templates/IGDB.md",
+    "Templates/Season.md",
+    "Scripts/Tokens/igdbToken.json",
+    "Media Tracker/Seasons/Breaking Bad (2008) - Temporada 2.md",
+    "Media Tracker/Seasons/Breaking Bad (2008) - Temporada 1.md",
+    "Templates/Movie.md",
+    "Media Tracker/Movies/Avatar El sentido del agua (2022).md",
+    "Media Tracker/Movies/Avatar (2009).md",
+    "Media Tracker/Games",
+    "Scripts/Tokens",
+    "Scripts/QuickAdd/igdb.js",
+    "劇場版「進撃の巨人」完結編 THE LAST ATTACK.md",
+    "Spider-Man 2.md",
+    "Bienvenido.md"
+  ]
+}

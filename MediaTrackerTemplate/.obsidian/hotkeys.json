@@ -1,0 +1,29 @@
+{
+  "movie-search:open-movie-search-modal": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "M"
+    }
+  ],
+  "quickadd:choice:540b07f7-8c90-41b9-bfbe-0231f72d7524": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "G"
+    }
+  ],
+  "quickadd:choice:750f6dc5-5201-4ba8-8b1b-8db3e3479b5f": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
+  ]
+}

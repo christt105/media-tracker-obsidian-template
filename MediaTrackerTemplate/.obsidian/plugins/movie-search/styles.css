@@ -1,0 +1,53 @@
+.movie-search-plugin__settings .search-input-container {
+	width: 100%;
+}
+
+.movie-search-plugin__settings--new_file_name {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.movie-search-plugin__settings--new_file_name_hint {
+	margin-bottom: 10px;
+}
+.movie-search-plugin__settings--service_provider .dropdown {
+	text-transform: capitalize;
+}
+
+.movie-search-plugin__hide {
+	display: none;
+}
+.movie-search-plugin__show {
+	display: flex;
+}
+
+.movie-search-plugin__recent-locale {
+	float: right;
+	color: #666;
+}
+
+.movie-search-plugin__movie-suggestion-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.movie-search-plugin__movie-cover-image {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.movie-search-plugin__movie-text-info {
+    flex-grow: 1;
+}
+
+.movie-search-plugin__search-modal--input {
+	padding-bottom: 18px;
+}
+.movie-search-plugin__search-modal--input input {
+	width: 100%;
+}
+
+.movie-search-plugin__modal-button {
+	margin: 5px;
+}
