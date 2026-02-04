@@ -49,6 +49,22 @@ For the **"Update Images"** action:
 
 ![SteamGridDb Token](docs/SteamGridDbToken.png)
 
+## How to Use
+
+### Movies & TV Shows
+To add a new movie or series, run the command `Movie Search: Create new movie note` or press `Ctrl+Shift+M`. Type the title and select the correct entry from the list.
+
+### TV Seasons
+To create seasons, open a specific TV series note and run the command `QuickAdd: Create Season`. Enter the season number, and a new note linked to the series will be generated automatically.
+
+### Video Games
+To add a video game, run the command `QuickAdd: Create Game` or press `Ctrl+Shift+G`. Search for the game and select it from the results.
+
+* **Missing Steam ID:** If a Steam game is missing its Steam ID, run the command `QuickAdd: Search Steam Id`, enter the name, and select the matching game to update the metadata.
+
+### Updating Images
+To change the artwork, run the command `QuickAdd: Update Images` or press `Ctrl+Shift+I`. Choose between **Cover** or **Backdrop** and select your preferred image from the list.
+
 ## Attribution
 This project uses data and images from the following services:
 *   [The Movie Database (TMDB)](https://www.themoviedb.org/)
