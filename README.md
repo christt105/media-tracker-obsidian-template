@@ -6,9 +6,9 @@ This is an example [Obsidian](https://obsidian.md) vault featuring a media track
 
 Media data is sourced from [TMDB](https://www.themoviedb.org/), [IGDB](https://www.igdb.com/) and [SteamGridDB](https://www.steamgriddb.com/), and a free API token for each service is required for the scripts to function.
 
-## ⚠️ Disclaimer
-**This is a personal project and can be difficult to set up.**
-If you encounter any issues, please feel free to open an issue on the repository. If there is significant interest in a more user-friendly experience, I may consider condensing these features into a standalone plugin for [Obsidian](https://obsidian.md).
+> [!WARNING] 
+> **This is a personal project and can be difficult to set up.**
+> If you encounter any issues, please feel free to open an issue on the repository. If there is significant interest in a more user-friendly experience, I may consider condensing these features into a standalone plugin for Obsidian.
 
 ## Configuration Guide
 To make the tracker fully functional, you must configure several API keys and settings.
