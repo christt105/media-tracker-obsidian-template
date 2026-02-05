@@ -75,6 +75,19 @@ To add a video game, run the command `QuickAdd: Create Game` or press `Ctrl+Shif
 ### Updating Images
 To change the artwork, run the command `QuickAdd: Update Images` or press `Ctrl+Shift+I`. Choose between **Cover** or **Backdrop** and select your preferred image from the list.
 
+## Support & Donations
+
+If you found this template useful, please consider giving it a ⭐ on **GitHub** to help others discover it!
+
+If you would like to support the development and maintenance of this project economically, you can buy me a coffee on **Ko-fi**:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/christt105)
+
+## 🔗 Project Links
+
+* **Repository:** [https://github.com/christt105/media-tracker-obsidian-template](https://github.com/christt105/media-tracker-obsidian-template)
+* **Report an Issue:** [Click here](https://github.com/christt105/media-tracker-obsidian-template/issues)
+
 ## Attribution
 This project uses data and images from the following services:
 *   [The Movie Database (TMDB)](https://www.themoviedb.org/)
