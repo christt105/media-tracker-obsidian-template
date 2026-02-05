@@ -83,7 +83,7 @@ If you would like to support the development and maintenance of this project eco
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/christt105)
 
-## 🔗 Project Links
+## Project Links
 
 * **Repository:** [https://github.com/christt105/media-tracker-obsidian-template](https://github.com/christt105/media-tracker-obsidian-template)
 * **Report an Issue:** [Click here](https://github.com/christt105/media-tracker-obsidian-template/issues)
