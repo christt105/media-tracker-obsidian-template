@@ -1,5 +1,7 @@
 # Media Tracker Obsidian Template
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y21T9E9D)
+
 ![Preview](docs/Preview.png)
 
 This is an example [Obsidian](https://obsidian.md) vault featuring a media tracker for movies, TV shows and video games. The vault utilizes [**Movie Search**](obsidian://show-plugin?id=movie-search), [**Templater**](obsidian://show-plugin?id=templater-obsidian), and [**QuickAdd**](obsidian://show-plugin?id=quickadd) plugins to automate media management and provide various functionalities. It also adds [Pretty Properties](obsidian://show-plugin?id=pretty-properties) plugin for better display covers and banners. 
@@ -9,6 +11,14 @@ Media data is sourced from [TMDB](https://www.themoviedb.org/), [IGDB](https://w
 > [!WARNING] 
 > **This is a personal project and can be difficult to set up.**
 > If you encounter any issues, please feel free to open an issue on the repository. If there is significant interest in a more user-friendly experience, I may consider condensing these features into a standalone plugin for Obsidian.
+
+## Features
+
+* **Hugo Integration:** Generate a fully functional website from your vault using a custom-built Hugo theme designed specifically for this media tracker.
+* **Seamless Management:** Add, modify, and visualize all your media entries without ever leaving Obsidian.
+* **Built-in Automation:** Leverages powerful plugins like **QuickAdd**, **Templater**, and **Movie Search** to streamline your workflow.
+* **Custom Scripts:** Includes tailor-made scripts specifically developed to extend functionality, such as automated Steam ID fetching and advanced image management.
+* **Rich Metadata:** Automatically pulls detailed information for movies, TV shows, and games from professional databases.
 
 ## Configuration Guide
 To make the tracker fully functional, you must configure several API keys and settings.
