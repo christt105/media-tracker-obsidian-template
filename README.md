@@ -1,5 +1,15 @@
 # Media Tracker Obsidian Template
 
+> [!IMPORTANT]
+> **This project is archived and no longer maintained.**
+> The QuickAdd + Templater + Movie Search script bundle in this vault has been
+> replaced by a single, native Obsidian plugin with proper settings — no scripts
+> to wire up and no extra plugins required.
+>
+> 👉 **Use [hugo-mediatracker-plugin](https://github.com/christt105/hugo-mediatracker-plugin) instead.**
+>
+> This repository is kept for reference only.
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y21T9E9D)
 
 ![Preview](docs/Preview.png)
