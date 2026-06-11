@@ -6,7 +6,10 @@
 > replaced by a single, native Obsidian plugin with proper settings — no scripts
 > to wire up and no extra plugins required.
 >
-> 👉 **Use [hugo-mediatracker-plugin](https://github.com/christt105/hugo-mediatracker-plugin) instead.**
+> 👉 **Use the newer ecosystem instead:**
+> - 🚀 **[mediatracker-starter](https://github.com/christt105/mediatracker-starter)** — a ready-to-clone site; the quickest way to start. ([live demo](https://christt105.github.io/mediatracker-starter/))
+> - 📥 **[hugo-mediatracker-plugin](https://github.com/christt105/hugo-mediatracker-plugin)** — the standalone Obsidian plugin that replaces the scripts in this vault (also adds TheTVDB and books).
+> - 🎨 **[hugo-mediatracker-theme](https://github.com/christt105/hugo-mediatracker-theme)** — the Hugo theme that renders the site.
 >
 > This repository is kept for reference only.
 
